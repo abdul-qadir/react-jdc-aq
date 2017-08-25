@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import PrivateRoute from './components/PrivateRoute';
+import PrivateRoute from './pages/PrivateRoute';
 import Home from './pages/Home';
 import About from './pages/About';
 import Protected from './pages/Protected';

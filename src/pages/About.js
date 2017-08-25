@@ -3,7 +3,5 @@ import Content from '../components/Content';
 
 export default props => {
   const { setTitle } = props;
-  return (
-    <Content text="Welcome to /about" setTitle={setTitle} />
-  );
+  return <Content text="Welcome to /about" setTitle={setTitle} />;
 };

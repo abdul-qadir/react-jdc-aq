@@ -1,5 +1,4 @@
 import React from 'react';
-// import logProps from './utilities/logProps';
 
 class Content extends React.Component {
   state = {
@@ -7,7 +6,7 @@ class Content extends React.Component {
   };
 
   setTitleText = event => {
-    this.setState({title: event.target.value});
+    this.setState({ title: event.target.value });
   };
 
   shouldComponentUpdate(nextProps, nextState) {
